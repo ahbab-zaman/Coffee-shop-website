@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    /* font-family: 'Space Mono', monospace; */
+    /* font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif; */
+}
+/* nav-bar css starts here */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#nav-bar{
+    min-height: 5vh;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 10px;
+}
+.left-side ul li{
+    padding: 15px;
+    font-family:  'Baloo Bhai 2', sans-serif;;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.left-side ul li:hover{
+    color: green;
+}
+.left-side ul li h1:hover{
+    color: #000;
+}
+.ls-head{
+    font-size: 60px;
+    font-weight: lighter;
+}
+.right-side ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0 15px;
+}
+.right-side ul li{
+    font-family:  'Baloo Bhai 2', sans-serif;;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.u-btn{
+    background-color:transparent;
+    margin-right: -22px;
+    color: #000;
+    width: 25px;
+    height: 25px;
+}
+.c-btn{
+    width: 130px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    transition: all 0.3s;
+}
+.c-btn:hover{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.right-side ul li .m-btn{
+    display: none;
+}
+.right-side ul li .x-btn{
+    display: none;
+}
+
+/* nav-bar css ends here */
+
+/* mid-bar css starts here */
+#mid-bar{
+    min-height: 95vh;
+    background-color: rgb(249, 223, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.poster{
+    position: relative;
+}
+.img-poster{
+    width: 100%;
+    height: 40%;
+}
+.img-head{
+    position: absolute;
+    top: 113px;
+    left: 52px;
+    font-size:131px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Space Mono', monospace; 
+}
+.shop-btn{
+    position: absolute;
+    bottom: -220px;
+    right: 30px;
+    width: 300px;
+    height: 72px;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;;
+    border: 0.5px solid black;
+    background-color: lemonchiffon;
+    transition: all 0.4s;
+}
+.shop-btn:hover{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+.poster-description {
+    width: 100%;
+    height: 50vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.desc-head{
+    font-size: 40px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: lighter;
+    text-align: center;
+}
+
+/* mid-bar css ends here */
+/* menu css starts here */
+#menu{
+    min-height: 95vh;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menu-head{
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+}
+.menu-img{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+}
+.poster-head{
+    font-family:'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 5px;
+    padding: 5px;
+}
+.poster-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 5px;
+}
+.d-head{
+    padding: 5px;
+    margin: 3px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.d-p{
+    padding: 5px;
+    margin: 3px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
+/* menu css ends here */
+
+/* menu-after css starts here */
+#menu-after{
+    min-height: 95vh;
+    background-color: #eee;
+}
+.m-a-img{
+    width: 100%;
+    height: 40%;
+}
+.delivery-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.delivery-img{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+.shop-btn-1{
+    width: 300px;
+    height: 72px;
+    margin: 30px;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    border: 0.5px solid black;
+    background-color: lemonchiffon;
+    transition: all 0.4s;
+}
+.shop-btn-1:hover{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* menu-after css ends here */
+
+/* footer css starts here */
+#foot-sec{
+    min-height: 5vh;
+    background-color: skyblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.grid{
+    margin: 0 auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(3,150px);
+}
+.foot-bar{
+    min-height: 5px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    margin: 54px;
+    margin-left: 390px;
+    width: 100%;
+}
+.right h3{
+    margin: 40px;
+    margin-left: 21px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.right-nmbr{
+    margin: 25px;
+    font-size: 20px;
+}
+.mail-head{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.mail-box{
+    margin-left: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+.mail-box:hover{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.sub-btn{
+    margin-right:-139px;
+    float: right;
+    margin-top: -40px;
+    height: 40px;
+    width: 40%;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.4s;
+}
+.sub-btn:hover{
+    border: none;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+}
+.l-1{
+    padding: 27px;
+    width: 100%;
+    margin: 63px
+}
+.l-head{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-left: 36px;
+    margin-right: 61px;
+    width: 100%;
+}
+.l-para{
+    margin: 40px;
+    width: 100%;
+}
+.l-2{
+    padding: 27px;
+    width: 100%;
+    margin: 63px
+}
+.l-para-1{
+    margin-top: -134px;
+    margin-left: 40px;
+}
+.l-3{
+    padding: 27px;
+    width: 100%;
+    margin: 63px
+}
+.l-para-2{
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.foot-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.foot-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.foot-bar ul li{
+    padding: 20px;
+}
+.foot-bar p{
+    margin: 10px;
+}
+/* footer css ends here */
+
+/* resposive starts here  */
+
+/* for mobile */
+@media  screen (max-width:650px) {
+
+    
+}
